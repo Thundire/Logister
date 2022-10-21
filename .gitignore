@@ -19,5 +19,11 @@ pnpm-debug.log*
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw?
+
+.vs
+
+[Bb]in
+[Oo]bj
+
+package-lock.json
