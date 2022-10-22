@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+dist/
 
 
 # local env files
@@ -21,9 +21,12 @@ pnpm-debug.log*
 *.njsproj
 *.sw?
 
-.vs
+.vs/
 
-[Bb]in
-[Oo]bj
+[Bb]in/
+[Oo]bj/
 
+*.user*
 package-lock.json
+
+!*/logister_web/.vscode/*
